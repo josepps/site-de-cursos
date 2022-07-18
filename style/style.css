@@ -17,9 +17,12 @@ header {
     align-items: center;
 }
 
-header img {
-    height: 80%;
-    margin: 0 0 0 5%;
+header a {
+    margin: 0.8% 0 0 2%;
+}
+
+header a img {
+    height: 8vh;
 }
 
 header nav {
@@ -31,6 +34,7 @@ header ul {
     align-items: center;
     justify-content: center;
     list-style-type: none;
+    width: auto;
 }
 
 header ul li {
@@ -41,7 +45,7 @@ header ul li a {
     text-decoration: none;
     color: #FDFDFD;
     font-size: 150%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive;   
 }
 
 #inicio-principal {
@@ -590,7 +594,224 @@ footer div a {
 }
 
 @media (max-width: 1200px) {
+    #inicio-curso {
+        height: auto;
+    }
     .cursos-principais {
         width: 100%;
+        height: 100vh;
+    }
+    .cursos-principais h4 {
+        margin: 0;
+    }
+    .cursos-principais p {
+        margin: 0;
+    }
+    #inicio-comentarios {
+        width: 100vw;
+        height: 100vh;
+    }
+    #inicio-comentarios h2 {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    #container-comentarios {
+        position: relative;
+        top: 25%;
+        left: 10%;
+    }
+    #container-comentarios div {
+        width: 90%;
+        margin: 0 5% 5% 0;
+    }
+    #container-comentarios div img {
+        height: 70%;
+        width: 50%;
+    }
+    #menu-contato {
+        flex-wrap: wrap;
+    }
+    #menu-contato img {
+        width: 30vw;
+        height: 30vh;
+    }
+    .secoes-cursos {
+        height: 30vh;
+    }
+    .container-blog {
+        height: 45vh;
+    }
+    #curso-principal {
+        flex-wrap: wrap;
+    }
+    #curso-principal article {
+        width: 80%;
+    }
+    #curso-principal article h1 {
+        margin-bottom: 5%;
+    }
+    #curso-principal article p {
+        font-size: 1.5rem;
+    }
+    #curso-principal figure img {
+        height: 40vh;
+    }
+    #titulo-post h1 {
+        width: 80vw;
+        text-align: center;
+    }
+}
+
+@media (max-width: 950px) {
+    header a img {
+        width: 40vw;
+    }
+    header nav {
+        width: 30vw;
+        font-size: 0.7rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+    header ul {
+        display: block;
+    }
+    #inicio-principal {
+        height: 200vh;
+    }
+    #inicio-principal div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #inicio-comentarios h2 {
+        top: 5%;
+    }
+    .cursos-principais {
+        width: 80vw;
+        height: 100vh;
+        text-align: center;
+    }
+    #inicio-comentarios {
+        height: 170vh;
+    }
+    #container-comentarios {
+        top: 15%;
+    }
+    #container-comentarios div {
+        flex-wrap: wrap;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+    #container-comentarios div img {
+        height: 40%;
+        width: 20%;
+    }
+    #inicio-posts {
+        height: 200vh;
+    }
+    #inicio-posts h2 {
+        top: 1%;
+    }
+    #inicio-posts div {
+        width: 80vw;
+        height: 20%;
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+    #inicio-posts div img {
+        height: 20vh;
+    }
+    #inicio-posts div p {
+        width: 100%;
+    }
+    #inicio-posts a {
+        top: 96%;
+        left: 30%;
+    }
+    footer img {
+        height: 50%;
+        width: 60%;
+    }
+    footer div {
+        width: 35%;
+        height: 60%;
+        font-size: 0.7rem;
+    }
+    footer div a {
+        margin-top: 5px;
+        text-align: center;
+    }
+    #menu-contato {
+        flex-wrap: wrap;
+    }
+    #formulario-contato {
+        width: 80%;
+    }
+    #menu-contato img {
+        width: 50vw;
+    }
+    #titulo-cursos {
+        left: 0;
+    }
+    .secoes-cursos {
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+    #tirar-borda div {
+        height: 50vh;
+    }
+    #tirar-borda div img {
+        height: 100%;
+    }
+    #inicio-blog {
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+    #titulo-blog {
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #titulo-blog h1 {
+        text-align: center;
+    }
+    #inicio-blog div {
+        height: 50vh;
+        align-items: center;
+    }
+    #inicio-blog div img {
+        height: 90%;
+    }
+    .container-blog {
+        width: 80vw;
+        height: 60vh;
+    }
+    #curso-principal {
+        width: 90vw;
+        height: 150vh;
+        margin-left: 5%;
+    }
+    #curso-principal article {
+        width: 100%;
+        text-align: center;
+    }
+    .container-curso {
+        flex-wrap: wrap;
+    }
+    .container-curso div {
+        width: 80vw;
+        text-align: center;
+    }
+    #container-post img {
+        height: 300px;
     }
 }
