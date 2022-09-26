@@ -1,2 +1,6 @@
 # site-de-cursos
-Recebi o Figma do site e desenvolvi com HTML e CSS
+- Esse foi o primeiro site que eu fiz, foi o primeiro HandsOn do xp44.
+- Um site para uma empresa fictícia de cursos de financias.
+- Recebi o figma do projeto que e tive que fazer todo o HTML e CSS.
+- Site responsivo para, tablets e celulares (não engloba todos os dispositivos)
+- Site do projeto: https://josepps.github.io/site-de-cursos/
